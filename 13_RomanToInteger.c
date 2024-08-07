@@ -1,4 +1,16 @@
 // Function to return the integer value of a Roman numeral symbol
+
+
+
+/* The switch statement provides a way to execute one code block among many based on the value of a variable.
+It is often used as an alternative to multiple if-else conditions when you need to check a single variable against multiple possible values.
+*/ 
+
+/*In a switch statement, the variable or expression is evaluated once, and the result is compared against a list of possible values (called "cases").
+When a match is found, the code block associated with that case is executed.
+If no match is found, an optional default case can be executed.
+*/
+
 int value(char c) {
     switch(c) {
         case 'I': return 1;
